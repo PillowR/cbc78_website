@@ -15,21 +15,21 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Le club</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                     <a [routerLink]="['/pictures']" class="dropdown-item">Photos</a>
-                    <a href="membership.html" class="dropdown-item">Adhérer</a>
-                    <a href="bureau.html" class="dropdown-item">Le bureau</a>
-                    <a href="creneau.html" class="dropdown-item">Horaire des créneaux</a>
+                    <a [routerLink]="['/join-us ']" class="dropdown-item">Adhérer au club</a>
+                    <a [routerLink]="['/administration-board']" class="dropdown-item">Les membres du bureau</a>
+                    <a [routerLink]="['/planning']" class="dropdown-item">Horaires des créneaux</a>
                 </div>
             </div>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">La compétition</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                    <a href="interclub.html" class="dropdown-item">Interclubs</a>
-                    <a href="membership.html" class="dropdown-item">Tournois</a>
+                    <a [routerLink]="['/interclubs']" class="dropdown-item">Interclubs</a>
+                    <!--<a href="membership.html" class="dropdown-item">Tournois</a>-->
                 </div>
             </div>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a [routerLink]="['/contact']" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="" class="btn btn-primary">Se connecter<i class="fa fa-arrow-right ms-3"></i></a>
+        <!-- <a href="" class="btn btn-primary">Se connecter<i class="fa fa-arrow-right ms-3"></i></a>-->
     </div>
 </nav>
 <!-- Navbar End -->

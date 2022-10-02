@@ -9,6 +9,9 @@ import { AdministrationBoardComponent } from './administration-board/administrat
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { PlanningComponent } from './planning/planning.component';
+import { InterclubsComponent } from './interclubs/interclubs.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HomeComponent } from './home/home.component';
     AdministrationBoardComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    PlanningComponent,
+    InterclubsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
