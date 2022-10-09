@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { PlanningComponent } from './planning/planning.component';
 import { InterclubsComponent } from './interclubs/interclubs.component';
 import { ContactComponent } from './contact/contact.component';
+import { LightboxModule } from 'ngx-lightbox';
 
 @NgModule({
   declarations: [
@@ -24,11 +25,12 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     PlanningComponent,
     InterclubsComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    LightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
